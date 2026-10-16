@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 70" width="260" height="70">
+  <defs>
+    <linearGradient id="logo-gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#FFF2B2" />
+      <stop offset="35%" stopColor="#E5B239" />
+      <stop offset="70%" stopColor="#D49A25" />
+      <stop offset="100%" stopColor="#9A6B0A" />
+    </linearGradient>
+    <linearGradient id="tree-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stopColor="#10B981" />
+      <stop offset="100%" stopColor="#044E3B" />
+    </linearGradient>
+  </defs>
+
+  <!-- 3D Christmas Tree Emblem -->
+  <g transform="translate(6, 4) scale(1.18)">
+    <!-- Star on top -->
+    <polygon points="20,2 23,8 30,8 24,13 26,20 20,16 14,20 16,13 10,8 17,8" fill="#FDE047" stroke="#D49A25" stroke-width="0.8" />
+    
+    <!-- 3D Faceted Tree Layers -->
+    <polygon points="20,10 28,22 12,22" fill="url(#tree-grad)" stroke="#10B981" stroke-width="1" />
+    <polygon points="20,18 32,32 8,32" fill="url(#tree-grad)" stroke="#10B981" stroke-width="1" />
+    <polygon points="20,28 36,44 4,44" fill="url(#tree-grad)" stroke="#10B981" stroke-width="1" />
+
+    <!-- 3D Bauble Ornaments -->
+    <circle cx="16" cy="20" r="1.8" fill="#EF4444" />
+    <circle cx="24" cy="28" r="2.2" fill="#F59E0B" />
+    <circle cx="14" cy="38" r="2.2" fill="#FDE047" />
+    <circle cx="26" cy="38" r="2" fill="#EF4444" />
+    
+    <!-- Trunk -->
+    <rect x="17" y="44" width="6" height="6" rx="1" fill="#78350F" />
+  </g>
+
+  <!-- Typography: VHDESIGNER3d without secondary subtitle -->
+  <text x="64" y="44" font-family="'Cinzel', Georgia, serif" font-size="28" font-weight="900" fill="url(#logo-gold)" letter-spacing="1.5">
+    VHDESIGNER<tspan fill="#EF4444">3d</tspan>
+  </text>
+</svg>

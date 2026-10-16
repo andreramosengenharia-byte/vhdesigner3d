@@ -1,0 +1,8 @@
+{
+  "name": "Remix VHDESIGNER3d - Catálogo de Natal em Impressão 3D",
+  "description": "Catálogo exclusivo de decorações, enfeites e presentes natalinos feitos em impressão 3D de alta precisão pela VHDESIGNER3d.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
