@@ -58,6 +58,16 @@ app.post('/api/media/logo', (req, res) => {
   const data = getSharedMedia();
   data.logoUrl = logoUrl || null;
   saveSharedMedia(data);
+
+  if (logoUrl && logoUrl.startsWith('data:image')) {
+    try {
+      const base64Data = logoUrl.replace(/^data:image\/\w+;base64,/, '');
+      fs.writeFileSync(path.resolve(process.cwd(), 'public/logo.png'), Buffer.from(base64Data, 'base64'));
+    } catch (e) {
+      console.error('Error writing public/logo.png:', e);
+    }
+  }
+
   res.json({ success: true, logoUrl: data.logoUrl });
 });
 
@@ -85,6 +95,16 @@ app.post('/api/media/image', (req, res) => {
   }
 
   saveSharedMedia(data);
+
+  if (imageUrl && imageUrl.startsWith('data:image')) {
+    try {
+      const base64Data = imageUrl.replace(/^data:image\/\w+;base64,/, '');
+      fs.writeFileSync(path.resolve(process.cwd(), `public/products/${key}.jpg`), Buffer.from(base64Data, 'base64'));
+    } catch (e) {
+      console.error('Error writing public product image:', e);
+    }
+  }
+
   res.json({ success: true, key });
 });
 
@@ -119,6 +139,9 @@ app.delete('/api/media/video/:productId', (req, res) => {
 });
 
 async function start() {
+  // Serve public directory directly for fast asset delivery (.zip, .mp4, images)
+  app.use(express.static(path.resolve(process.cwd(), 'public')));
+
   if (process.env.NODE_ENV === 'production') {
     app.use(express.static(path.resolve(process.cwd(), 'dist')));
     app.get('*', (_req, res) => {

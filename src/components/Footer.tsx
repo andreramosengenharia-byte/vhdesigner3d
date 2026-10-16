@@ -115,6 +115,16 @@ export const Footer: React.FC<FooterProps> = ({
               )}
             </button>
           )}
+          {isAdmin && (
+            <a
+              href="/vhdesigner3d-completo.zip"
+              download="vhdesigner3d-completo.zip"
+              title="Baixar arquivos completos com todas as fotos para atualizar no GitHub / Vercel"
+              className="text-amber-300 hover:text-amber-200 font-semibold flex items-center gap-1 text-[10px] bg-emerald-950/90 border border-amber-400/50 px-2 py-1 rounded transition-colors shadow-sm"
+            >
+              <span>📦 Baixar Projeto (.ZIP) para Vercel</span>
+            </a>
+          )}
         </div>
       </div>
     </footer>

@@ -137,14 +137,33 @@ export const LogoSettingsModal: React.FC<LogoSettingsModalProps> = ({
           </div>
         </div>
 
-        {/* Method 3: Where in code to put it */}
-        <div className="rounded-xl border border-emerald-900/60 bg-[#04130d] p-3 text-[11px] text-slate-300 space-y-1">
+        {/* Method 3: Download & Vercel deployment */}
+        <div className="rounded-xl border border-amber-400/30 bg-[#04130d] p-3.5 text-[11px] text-slate-300 space-y-2.5">
           <div className="flex items-center gap-1.5 text-amber-300 font-semibold">
-            <FolderCode className="w-3.5 h-3.5" />
-            <span>Onde salvar o arquivo no projeto:</span>
+            <FolderCode className="w-4 h-4 text-amber-400" />
+            <span>Publicar ou Atualizar na Vercel:</span>
           </div>
-          <p className="text-slate-400">
-            Basta colocar sua imagem na pasta <code className="text-emerald-300 font-mono">/public/logo.png</code> ou alterar o caminho no arquivo <code className="text-emerald-300 font-mono">src/config/branding.ts</code>.
+          <p className="text-slate-300 text-xs leading-relaxed">
+            Todas as fotos dos produtos, a logo oficial e os arquivos já estão salvos e empacotados. Para que a sua Vercel atualize o site, baixe os arquivos atualizados:
+          </p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 pt-1">
+            <a
+              href="/vhdesigner3d-completo.zip"
+              download="vhdesigner3d-completo.zip"
+              className="flex items-center justify-center gap-1.5 px-3 py-2 rounded-lg bg-emerald-900/90 hover:bg-emerald-800 text-emerald-200 border border-emerald-700/60 font-medium text-xs text-center transition-all shadow-sm"
+            >
+              <span>📦 Baixar Código (.ZIP)</span>
+            </a>
+            <a
+              href="/vhdesigner3d-dist.zip"
+              download="vhdesigner3d-dist.zip"
+              className="flex items-center justify-center gap-1.5 px-3 py-2 rounded-lg bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-xs text-center transition-all shadow-sm"
+            >
+              <span>⚡ Baixar Dist Pronto (.ZIP)</span>
+            </a>
+          </div>
+          <p className="text-[10px] text-slate-400 pt-1">
+            Dica: Se sua Vercel estiver conectada ao GitHub, basta substituir os arquivos e fazer o commit com a pasta <code className="text-amber-300 font-mono">public/</code> e <code className="text-amber-300 font-mono">src/data/products.ts</code>.
           </p>
         </div>
 

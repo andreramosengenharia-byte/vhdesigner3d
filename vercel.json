@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/api/media", "destination": "/api/media.json" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}

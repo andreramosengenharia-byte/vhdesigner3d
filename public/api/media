@@ -1,0 +1,34 @@
+{
+  "images": {
+    "vh-letreiro-natal-personalizado-arvore": "/products/vh-letreiro-natal-personalizado-arvore.jpg",
+    "vh-bolinhas-floco-nome-personalizado": "/products/vh-bolinhas-floco-nome-personalizado.jpg",
+    "vh-bolinhas-floco-nome-personalizado__Branco": "/products/vh-bolinhas-floco-nome-personalizado__Branco.jpg",
+    "vh-bolinhas-floco-nome-personalizado__Dourado": "/products/vh-bolinhas-floco-nome-personalizado__Dourado.jpg",
+    "vh-bolinhas-floco-nome-personalizado__Vermelho": "/products/vh-bolinhas-floco-nome-personalizado__Vermelho.jpg",
+    "vh-bolinhas-floco-nome-personalizado__Verde": "/products/vh-bolinhas-floco-nome-personalizado__Verde.jpg",
+    "vh-arvore-decorativa-3d-mesa": "/products/vh-arvore-decorativa-3d-mesa.jpg",
+    "vh-presepio-luminaria-3d-led": "/products/vh-presepio-luminaria-3d-led.jpg",
+    "vh-porta-guardanapo-natalino-kit6": "/products/vh-porta-guardanapo-natalino-kit6.jpg",
+    "vh-porta-guardanapo-natalino-kit6__Branco": "/products/vh-porta-guardanapo-natalino-kit6__Branco.jpg",
+    "vh-porta-guardanapo-natalino-kit6__Dourado": "/products/vh-porta-guardanapo-natalino-kit6__Dourado.jpg",
+    "vh-porta-guardanapo-natalino-kit6__Verde": "/products/vh-porta-guardanapo-natalino-kit6__Verde.jpg",
+    "vh-porta-guardanapo-natalino-kit6__Vermelho": "/products/vh-porta-guardanapo-natalino-kit6__Vermelho.jpg",
+    "vh-cesto-porta-panetone-noel": "/products/vh-cesto-porta-panetone-noel.jpg",
+    "vh-letreiro-feliz-natal-floco": "/products/vh-letreiro-feliz-natal-floco.jpg",
+    "vh-letreiro-feliz-natal-floco__Branco": "/products/vh-letreiro-feliz-natal-floco__Branco.jpg",
+    "vh-letreiro-feliz-natal-floco__Dourado": "/products/vh-letreiro-feliz-natal-floco__Dourado.jpg",
+    "vh-letreiro-feliz-natal-floco__Verde": "/products/vh-letreiro-feliz-natal-floco__Verde.jpg",
+    "vh-letreiro-feliz-natal-floco__Vermelho": "/products/vh-letreiro-feliz-natal-floco__Vermelho.jpg",
+    "vh-kit-natal-3d-trico-completo": "/products/vh-kit-natal-3d-trico-completo.jpg",
+    "vh-kit-natal-3d-trico-completo__Branco": "/products/vh-kit-natal-3d-trico-completo__Branco.jpg",
+    "vh-kit-natal-3d-trico-completo__Dourado": "/products/vh-kit-natal-3d-trico-completo__Dourado.jpg",
+    "vh-kit-natal-3d-trico-completo__Verde": "/products/vh-kit-natal-3d-trico-completo__Verde.jpg",
+    "vh-kit-natal-3d-trico-completo__Vermelho": "/products/vh-kit-natal-3d-trico-completo__Vermelho.jpg",
+    "vh-papai-noel-acenando-3d": "/products/vh-papai-noel-acenando-3d.jpg",
+    "vh-arvore-natal-giratoria-3d": "/products/vh-arvore-natal-giratoria-3d.jpg"
+  },
+  "videos": {
+    "vh-arvore-natal-giratoria-3d": "/arvore-giratoria.mp4"
+  },
+  "logoUrl": "/logo.png"
+}

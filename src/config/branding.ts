@@ -17,7 +17,7 @@ export const BRAND_CONFIG: BrandConfig = {
   name: 'VHDESIGNER3d',
   shortName: 'VH3D',
   tagline: 'O Natal ganha uma nova dimensão.',
-  logoUrl: '/logo.svg', // Logo oficial vetorizada VHDESIGNER3d
+  logoUrl: '/logo.png', // Logo oficial VHDESIGNER3d
   whatsapp: {
     number: '5513988437321',
     formatted: '(13) 98843-7321',

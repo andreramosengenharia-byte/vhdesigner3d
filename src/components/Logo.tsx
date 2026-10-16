@@ -25,6 +25,7 @@ export const Logo: React.FC<LogoProps> = ({
   const candidates = [
     customLogoUrl,
     BRAND_CONFIG.logoUrl,
+    '/logo.png',
     '/logo.svg',
   ].filter(Boolean) as string[];
 
