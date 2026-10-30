@@ -934,6 +934,81 @@ export const ProductArtwork: React.FC<ProductArtworkProps> = ({
         </div>
       );
 
+    case 'angels_trio':
+      return (
+        <div className={`relative flex items-center justify-center overflow-hidden bg-gradient-to-b from-[#181820] via-[#0b1410] to-[#040e09] ${className}`}>
+          <div className="relative z-10 flex items-center justify-center gap-2">
+            <svg className="w-48 h-48 filter drop-shadow-[0_12px_24px_rgba(0,0,0,0.8)]" viewBox="0 0 200 200">
+              {/* Angel 1 (Left) */}
+              <g transform="translate(25, 30) scale(0.65)">
+                <ellipse cx="60" cy="18" rx="8" ry="4" fill="none" stroke="#FBBF24" strokeWidth="2.5" />
+                <circle cx="60" cy="30" r="12" fill="#E2E8F0" />
+                {/* Golden Wings */}
+                <path d="M 40,40 C 10,20 0,60 38,70 Z" fill="#D97706" stroke="#FDE047" strokeWidth="1.5" />
+                <path d="M 80,40 C 110,20 120,60 82,70 Z" fill="#D97706" stroke="#FDE047" strokeWidth="1.5" />
+                {/* Metallic Body */}
+                <path d="M 48,45 Q 60,80 40,160 L 80,160 Q 60,80 72,45 Z" fill="#94A3B8" stroke="#CBD5E1" strokeWidth="2" />
+                <polygon points="60,65 63,72 70,72 64,76 66,83 60,79 54,83 56,76 50,72 57,72" fill="#FBBF24" />
+              </g>
+
+              {/* Angel 2 (Center) */}
+              <g transform="translate(65, 10) scale(0.8)">
+                <ellipse cx="60" cy="18" rx="9" ry="4.5" fill="none" stroke="#FBBF24" strokeWidth="3" />
+                <circle cx="60" cy="30" r="13" fill="#F1F5F9" />
+                {/* Golden Wings */}
+                <path d="M 40,38 C 5,15 -5,55 38,70 Z" fill="#EAB308" stroke="#FEF08A" strokeWidth="1.5" />
+                <path d="M 80,38 C 115,15 125,55 82,70 Z" fill="#EAB308" stroke="#FEF08A" strokeWidth="1.5" />
+                {/* Metallic Body */}
+                <path d="M 46,45 Q 60,80 35,165 L 85,165 Q 60,80 74,45 Z" fill="#94A3B8" stroke="#F8FAFC" strokeWidth="2" />
+                <polygon points="60,65 63,72 70,72 64,76 66,83 60,79 54,83 56,76 50,72 57,72" fill="#FBBF24" />
+              </g>
+
+              {/* Angel 3 (Right) */}
+              <g transform="translate(105, 30) scale(0.65)">
+                <ellipse cx="60" cy="18" rx="8" ry="4" fill="none" stroke="#FBBF24" strokeWidth="2.5" />
+                <circle cx="60" cy="30" r="12" fill="#E2E8F0" />
+                {/* Golden Wings */}
+                <path d="M 40,40 C 10,20 0,60 38,70 Z" fill="#D97706" stroke="#FDE047" strokeWidth="1.5" />
+                <path d="M 80,40 C 110,20 120,60 82,70 Z" fill="#D97706" stroke="#FDE047" strokeWidth="1.5" />
+                {/* Metallic Body */}
+                <path d="M 48,45 Q 60,80 40,160 L 80,160 Q 60,80 72,45 Z" fill="#94A3B8" stroke="#CBD5E1" strokeWidth="2" />
+                <path d="M 60,78 A 5 5 0 0 0 60,68 A 5 5 0 0 0 60,78 Z" fill="#F59E0B" />
+              </g>
+            </svg>
+          </div>
+          <div className="absolute bottom-2.5 right-3 text-[11px] font-mono tracking-tight text-amber-300/90 bg-black/75 px-2 py-0.5 rounded border border-amber-500/40 backdrop-blur-xs shadow-md">
+            Coleção Festiva
+          </div>
+        </div>
+      );
+
+    case 'minimalist_nativity':
+      return (
+        <div className={`relative flex items-center justify-center overflow-hidden bg-gradient-to-b from-[#0a0a0d] via-[#05110c] to-[#020504] ${className}`}>
+          <div className="relative z-10 flex items-center justify-center">
+            <svg className="w-44 h-44 filter drop-shadow-[0_14px_28px_rgba(0,0,0,0.85)]" viewBox="0 0 160 160">
+              {/* Joseph Silhouette (White Matte) */}
+              <circle cx="70" cy="35" r="10" fill="#FFFFFF" />
+              <path d="M 60,42 C 60,35 80,35 80,42 L 85,135 L 50,135 Z" fill="#FFFFFF" opacity="0.95" />
+              <ellipse cx="70" cy="33" rx="10" ry="3.5" fill="none" stroke="#D97706" strokeWidth="2" />
+
+              {/* Mary Silhouette (White Matte) */}
+              <circle cx="95" cy="55" r="9" fill="#FFFFFF" />
+              <path d="M 86,60 C 86,52 104,52 104,60 L 115,135 L 75,135 Z" fill="#F8FAFC" />
+
+              {/* Gold Manger & Swaddled Baby */}
+              <polygon points="76,95 96,95 86,120" fill="#EAB308" stroke="#CA8A04" strokeWidth="1.5" />
+              <circle cx="86" cy="90" r="6" fill="#FFFFFF" />
+              <circle cx="86" cy="90" r="7.5" fill="none" stroke="#FDE047" strokeWidth="1.5" />
+              <ellipse cx="86" cy="98" rx="6" ry="4" fill="#FFFFFF" />
+            </svg>
+          </div>
+          <div className="absolute bottom-2.5 right-3 text-[11px] font-mono tracking-tight text-amber-300/90 bg-black/75 px-2 py-0.5 rounded border border-amber-500/40 backdrop-blur-xs shadow-md">
+            Sagrada Família
+          </div>
+        </div>
+      );
+
     case 'napkin_ring':
     default:
       return (

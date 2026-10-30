@@ -1,21 +1,27 @@
 {
   "images": {
-    "vh-letreiro-natal-personalizado-arvore": "https://images.unsplash.com/photo-1543257580-7269da773bf5?auto=format&fit=crop&w=800&q=80",
-    "vh-bolinhas-floco-nome-personalizado": "https://images.unsplash.com/photo-1576692155415-95f820a2c4c1?auto=format&fit=crop&w=800&q=80",
-    "vh-bolinhas-floco-nome-personalizado__Branco": "https://images.unsplash.com/photo-1576692155415-95f820a2c4c1?auto=format&fit=crop&w=800&q=80",
-    "vh-bolinhas-floco-nome-personalizado__Dourado": "https://images.unsplash.com/photo-1543257580-7269da773bf5?auto=format&fit=crop&w=800&q=80",
-    "vh-bolinhas-floco-nome-personalizado__Vermelho": "https://images.unsplash.com/photo-1512389142860-9c449e58a543?auto=format&fit=crop&w=800&q=80",
-    "vh-bolinhas-floco-nome-personalizado__Verde": "https://images.unsplash.com/photo-1545645474-06d2a4501a35?auto=format&fit=crop&w=800&q=80",
-    "vh-arvore-decorativa-3d-mesa": "https://images.unsplash.com/photo-1512389142860-9c449e58a543?auto=format&fit=crop&w=800&q=80",
-    "vh-presepio-luminaria-3d-led": "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=800&q=80",
-    "vh-porta-guardanapo-natalino-kit6": "https://images.unsplash.com/photo-1545645474-06d2a4501a35?auto=format&fit=crop&w=800&q=80",
-    "vh-cesto-porta-panetone-noel": "https://images.unsplash.com/photo-1576919228236-a097c32a5cd4?auto=format&fit=crop&w=800&q=80",
-    "vh-letreiro-feliz-natal-floco": "https://images.unsplash.com/photo-1513297887119-d46091b24bfa?auto=format&fit=crop&w=800&q=80",
-    "vh-kit-natal-3d-trico-completo": "https://images.unsplash.com/photo-1511268559489-34b624fbfcf5?auto=format&fit=crop&w=800&q=80",
-    "vh-papai-noel-acenando-3d": "https://images.unsplash.com/photo-1545232979-8bf68ee9b1af?auto=format&fit=crop&w=800&q=80",
-    "vh-arvore-natal-giratoria-3d": "https://images.unsplash.com/photo-1543257580-7269da773bf5?auto=format&fit=crop&w=800&q=80"
+    "vh-letreiro-natal-personalizado-arvore": "/products/vh-letreiro-natal-personalizado-arvore.jpg",
+    "vh-bolinhas-floco-nome-personalizado": "/products/vh-bolinhas-floco-nome-personalizado.jpg",
+    "vh-bolinhas-floco-nome-personalizado__Branco": "/products/vh-bolinhas-floco-nome-personalizado__Branco.jpg",
+    "vh-bolinhas-floco-nome-personalizado__Dourado": "/products/vh-bolinhas-floco-nome-personalizado__Dourado.jpg",
+    "vh-bolinhas-floco-nome-personalizado__Vermelho": "/products/vh-bolinhas-floco-nome-personalizado__Vermelho.jpg",
+    "vh-bolinhas-floco-nome-personalizado__Verde": "/products/vh-bolinhas-floco-nome-personalizado__Verde.jpg",
+    "vh-arvore-decorativa-3d-mesa": "/products/vh-arvore-decorativa-3d-mesa.jpg",
+    "vh-presepio-luminaria-3d-led": "/products/vh-presepio-luminaria-3d-led.jpg",
+    "vh-porta-guardanapo-natalino-kit6": "/products/vh-porta-guardanapo-natalino-kit6.jpg",
+    "vh-cesto-porta-panetone-noel": "/products/vh-cesto-porta-panetone-noel.jpg",
+    "vh-letreiro-feliz-natal-floco": "/products/vh-letreiro-feliz-natal-floco.jpg",
+    "vh-kit-natal-3d-trico-completo": "/products/vh-kit-natal-3d-trico-completo.jpg",
+    "vh-papai-noel-acenando-3d": "/products/vh-papai-noel-acenando-3d.jpg",
+    "vh-arvore-natal-giratoria-3d": "/products/vh-arvore-natal-giratoria-3d.jpg",
+    "vh-trio-anjos-decorativos-natalinos": "/products/vh-trio-anjos-decorativos-natalinos.jpg",
+    "vh-presepio-sagrada-familia-minimalista": "/products/vh-presepio-sagrada-familia-minimalista.jpg",
+    "vh-presepio-natal-iluminado-branco": "/presepio_luz.jpg",
+    "vh-enfeite-papai-noel-iluminado-saco": "/papai_noel_luz.jpg"
   },
   "videos": {
-    "vh-arvore-natal-giratoria-3d":"public/ARVORE GIRA/WhatsApp Video 2026-10-16 at 16.46.23.mp4"
-  }
+    "vh-arvore-natal-giratoria-3d": "/arvore-giratoria.mp4",
+    "vh-trio-anjos-decorativos-natalinos": "/products/vh-trio-anjos-decorativos-natalinos.mp4"
+  },
+  "logoUrl": "/logo.png"
 }

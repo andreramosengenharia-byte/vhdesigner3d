@@ -104,6 +104,7 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({
   };
 
   const colorKey = hasColorVariations ? `${product.id}__${selectedColor.name}` : product.id;
+  const hasVideo = Boolean(customVideos?.[product.id] || product.videoUrl);
   const hasSpecificPhoto = Boolean(
     hasColorVariations
       ? customImages?.[colorKey] || product.colorImages?.[selectedColor.name]
@@ -163,13 +164,13 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({
                   }}
                   className="flex items-center gap-1.5 rounded-lg bg-black/85 hover:bg-black/95 px-3 py-1.5 text-xs font-semibold text-amber-300 border border-amber-400/50 shadow-lg backdrop-blur-xs transition-transform hover:scale-105"
                 >
-                  {product.id === 'vh-arvore-natal-giratoria-3d' ? (
+                  {hasVideo ? (
                     <Video className="w-3.5 h-3.5 text-rose-400" />
                   ) : (
                     <Camera className="w-3.5 h-3.5 text-amber-400" />
                   )}
                   <span>
-                    {product.id === 'vh-arvore-natal-giratoria-3d'
+                    {hasVideo
                       ? 'Adicionar / Trocar Vídeo e Foto'
                       : hasColorVariations
                       ? hasSpecificPhoto

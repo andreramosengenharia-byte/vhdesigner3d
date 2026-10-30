@@ -117,16 +117,14 @@ export const ProductCard: React.FC<ProductCardProps> = ({
                   : 'bg-black/85 hover:bg-black/95 text-amber-300 border-amber-400/60 ring-1 ring-amber-400/20'
               }`}
             >
-              {product.id === 'vh-arvore-natal-giratoria-3d' ? (
-                <Video className={`w-3.5 h-3.5 ${hasVideo ? 'text-rose-400' : 'text-amber-400'}`} />
+              {hasVideo ? (
+                <Video className="w-3.5 h-3.5 text-rose-400" />
               ) : (
                 <Camera className={`w-3.5 h-3.5 ${hasSpecificColorImage || hasAnyImage ? 'text-emerald-400' : 'text-amber-400'}`} />
               )}
               <span>
-                {product.id === 'vh-arvore-natal-giratoria-3d'
-                  ? hasVideo
-                    ? 'Vídeo / Foto'
-                    : '+ Foto ou Vídeo'
+                {hasVideo
+                  ? 'Vídeo / Foto'
                   : hasColorVariations
                   ? hasSpecificColorImage
                     ? `Foto (${selectedColor.name})`

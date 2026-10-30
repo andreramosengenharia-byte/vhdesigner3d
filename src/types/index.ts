@@ -5,7 +5,8 @@ export type ProductCategory =
   | 'guardanapos'
   | 'iluminacao'
   | 'presepios'
-  | 'personalizados';
+  | 'personalizados'
+  | 'festivas';
 
 export interface ProductColorOption {
   name: string; // 'Dourado' | 'Vermelho' | 'Branco' | 'Verde'
@@ -22,12 +23,14 @@ export interface VolumePriceTier {
 export interface Product {
   id: string;
   name: string;
+  title?: string; // Standard e-commerce alias for name
   category: ProductCategory;
   categoryLabel: string;
   price: number;
   originalPrice?: number;
   shortDescription: string;
   fullDescription: string;
+  description?: string; // Standard e-commerce alias for fullDescription
   dimensions?: string;
   weight?: string;
   layerResolution?: string;
@@ -44,24 +47,7 @@ export interface Product {
   imageUrl?: string;
   videoUrl?: string;
   colorImages?: Record<string, string>; // Maps color name (e.g. 'Dourado') to image URL
-  imageTheme:
-    | 'baubles'
-    | 'spiral_tree'
-    | 'lantern'
-    | 'nativity'
-    | 'star'
-    | 'napkin_ring'
-    | 'reindeer'
-    | 'snowflakes'
-    | 'village'
-    | 'snowman'
-    | 'cookie_cutter'
-    | 'custom_ball'
-    | 'personalized_tree_sign'
-    | 'napkin_rings_set'
-    | 'snowflake_name_mandala'
-    | 'decorative_tree'
-    | 'nativity_lamp';
+  imageTheme?: string;
   isCustomizable?: boolean;
   customTextPlaceholder?: string;
   minQuantity?: number;
